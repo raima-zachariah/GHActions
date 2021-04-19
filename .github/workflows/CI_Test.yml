@@ -1,5 +1,5 @@
 name: run tests
-on: [pull]
+on: [pull_request]
 jobs:
   check-test-coverage:
     runs-on: ubuntu-latest
