@@ -10,4 +10,4 @@ jobs:
         with:
           python-version: 3.x
       - run: |
-          echo My secret is ${secrets.PASSWORD}
+          echo My secret is ${{ secrets.PASSWORD }}
