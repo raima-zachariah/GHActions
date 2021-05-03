@@ -9,8 +9,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: |
-          echo Start
-          env:
-            PUBLISH_TOKEN: ${{ secrets.PASSWORD }}
-          echo env
+      - run: echo Start
+        env:
+          PUBLISH_TOKEN: ${{ secrets.PASSWORD }}
+      - run: echo env
