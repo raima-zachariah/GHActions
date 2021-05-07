@@ -11,4 +11,3 @@ def test_hello_world():
 @pytest.mark.unit
 def test_code_exc():
     code_exc()
-    assert 0
