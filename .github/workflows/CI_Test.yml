@@ -9,4 +9,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pytest -m "unit"
+      - run: |
+          pip install pytest
+          pytest -m "unit"
