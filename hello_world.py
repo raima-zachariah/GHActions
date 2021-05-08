@@ -1,2 +1,2 @@
 def greetings(name="World"):
-    return f"Hello {name}."
+    return f"Hello {name}"
